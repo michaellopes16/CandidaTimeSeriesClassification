@@ -1,0 +1,25 @@
+;;;;;;;;;;;;;;;;;;
+;;;;Teste de Normalidade de Shapiro-Wilk;;;;;;;;;;;;;;
+;;;;;KNN;BOSS;HC1;HC2*;RISE;ROCKET;STC;TSFC;InceptionTime;;;;;
+;;;;p_value;0,71099;0,94795;0,90136;0,00741;0,07165;0,65710;0,64027;0,37661;0,12334;;;;;
+;;;;statistics;0,95359;0,97713;0,97116;0,77606;0,85768;0,94904;0,94761;0,92231;0,87787;;;;;
+;;;*Apenas o HC2 não demonstrou uma distribuição normal segundo o teste de normalidade de Shapiro-Wilk, com p<0,05;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;Teste não-paramétrico Kruskal-Wallis;;;;;;;;;;;
+;;;;"H0: Os 8 modelos possuem médias relativamente iguais em termos de acurácia de classificação;
+H1: Pelo menos uma modelo é diferente dos outros 7 em termos de média de acurácia de classificação";;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;"Pelo menos uma das variáveis não segue distribuição normal!
+Com 95% de confianca, com  p<0,05, temos evidências para rejeitar H0 e aceitar a hipótese de que pelo menos um modelo é diferente dos outros 7 em termos de média de acurácia de classificação, segundo o teste Kruskal-Wallis
+(estatística: 81.82989816331744, p_value: 2.092048284803122e-14)";;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;

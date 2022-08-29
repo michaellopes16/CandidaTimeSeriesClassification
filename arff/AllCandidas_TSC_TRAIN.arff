@@ -1,0 +1,6 @@
+@relation Candidas
+@attribute dim_0 string
+@attribute target string
+@data
+'d','i','m','_','0'
+'t','a','r','g','e','t'
